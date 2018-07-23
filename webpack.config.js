@@ -16,7 +16,6 @@ module.exports = [
               name: 'bundle.css',
             },
           },
-          { loader: 'extract-loader' },
           { loader: 'css-loader' },
           {
             loader: 'sass-loader',
