@@ -29,18 +29,17 @@ module.exports = [
     },
   },
   {
-    entry: "./app.js",
+    entry: "./app.ts",
+    devtool: "inline-source-map",
     output: {
       filename: "bundle.js"
     },
+
     module: {
-      loaders: [{
-        test: /\.js$/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['env']
-        }
-      }]
+      rules: [
+        // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
+        { test: /\.tsx?$/, loader: "ts-loader" }
+      ]
     },
   }
 ];
