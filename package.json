@@ -21,6 +21,7 @@
   "dependencies": {
     "@material/textfield": "^0.37.1",
     "material-components-web": "^0.37.1",
+    "mini-css-extract-plugin": "^0.4.1",
     "style-loader": "^0.21.0"
   }
 }
