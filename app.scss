@@ -1,3 +1,5 @@
+@import "@material/textfield/mdc-text-field";
+
 html, body {
   height: 100%;
 }
@@ -9,6 +11,12 @@ body {
 }
 
 // Login page styles
+
+.username, .password {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
 
 .header {
   text-align: center;
@@ -26,3 +34,5 @@ body {
 .home {
   display: flex; // Flexbox is used to easily arrange the persistent drawer and content side-by-side
 }
+
+
