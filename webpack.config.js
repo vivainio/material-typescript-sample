@@ -1,6 +1,7 @@
 module.exports = [
   {
     entry: './app.scss',
+    mode: "development",
     output: {
       // This is necessary for webpack to compile
       // But we never use style-bundle.js
@@ -29,6 +30,7 @@ module.exports = [
   },
   {
     entry: "./app.ts",
+    mode: "development",
     devtool: "inline-source-map",
     output: {
       filename: "bundle.js"

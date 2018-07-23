@@ -1,9 +1,9 @@
 {
-  "name": "mdc-101-web",
+  "name": "mdc-ts",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-serve"
   },
   "license": "Apache-2.0",
   "devDependencies": {
@@ -15,6 +15,7 @@
     "ts-loader": "^4.4.2",
     "typescript": "^2.9.2",
     "webpack": "^4.16.2",
-    "webpack-command": "^0.4.1"
+    "webpack-command": "^0.4.1",
+    "webpack-serve": "^2.0.2"
   }
 }
